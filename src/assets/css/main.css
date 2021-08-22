@@ -1,0 +1,16 @@
+@import "https://fonts.googleapis.com/css?family=Poppins";
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s;
+  color: #1e1f1f;
+}

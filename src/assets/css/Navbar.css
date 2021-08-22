@@ -1,0 +1,124 @@
+.navbar-wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 7vh;
+  box-shadow: rgba(133, 129, 129, 0.35) 0px 2px 5px;
+  justify-content: space-between;
+  overflow: hidden;
+  /* align-items: center; */
+  padding: 5px;
+}
+
+.navbar-wrapper ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-wrapper > img {
+  margin: 7px;
+}
+
+button {
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #2c405e;
+  color: white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+button:focus {
+  outline-style: none;
+}
+
+.burger {
+  border: 0;
+  background-color: transparent;
+  color: #0594ec;
+  font-size: 20px;
+  display: none;
+}
+
+.burger:focus {
+  outline: none;
+}
+
+.navbar-wrapper ul li {
+  margin: 0 10px;
+}
+.navbar-wrapper ul li a {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar-wrapper ul li a::after {
+  content: "";
+  background-color: #1e1f1f;
+  position: absolute;
+  left: 0;
+  bottom: -18px;
+  height: 2px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.2s ease;
+}
+
+.navbar-wrapper ul li a:hover::after {
+  transform: translateY(-15px);
+  opacity: 1;
+}
+
+.toggle-bar {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.toggle-bar > button {
+  margin: 5px;
+}
+
+/* Mobile First Responsive */
+
+@media (max-width: 480px) {
+  .burger {
+    display: block;
+  }
+  nav ul {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    flex-direction: column;
+    position: fixed;
+    top: 80px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.4s ease;
+    border-radius: 5px;
+  }
+
+  nav ul li a {
+    /* text-decoration: none; */
+    color: #2c405e;
+  }
+
+  nav ul.show {
+    transform: translateX(0);
+  }
+
+  nav ul li {
+    margin: 15px;
+  }
+}
