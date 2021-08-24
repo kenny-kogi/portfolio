@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&family=Carter+One&display=swap");
+
+.main-hero {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  background-color: #e9ebed;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px;
+}
+
+.main-details {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-details h1 {
+  font-weight: 900;
+  letter-spacing: 8px;
+  font-size: 70px !important;
+  margin-bottom: 0;
+  font-family: "Cantarell", sans-serif;
+}
+
+.main-details p {
+  font-weight: 50;
+  font-size: 50px;
+  font-family: "Cantarell", sans-serif;
+}
+
+.line-bar {
+  width: 10px;
+  height: 70%;
+  background-color: #3f334d;
+  margin-top: 100px;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+
+.contact-links {
+  margin-top: 17%;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-links a {
+  margin: 0 30px;
+  font-size: 60px;
+  list-style: none;
+  color: #3f334d;
+}
+
+.more-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.more-buttons button {
+  margin: 0 15px;
+  height: 60px;
+  width: 150px;
+  background-color: #3f334d;
+  color: #e9ebed;
+  border-radius: 16px;
+}

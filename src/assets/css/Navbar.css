@@ -87,3 +87,20 @@
     display: flex !important;
   }
 }
+
+.navbar-wrapper ul li a::after {
+  content: "";
+  background-color: #2c405e;
+  position: absolute;
+  left: 0;
+  bottom: -18px;
+  height: 2px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.2s ease;
+}
+
+.navbar-wrapper ul li a:hover::after {
+  transform: translateY(-15px);
+  opacity: 1;
+}
