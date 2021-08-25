@@ -21,8 +21,7 @@ function Hero() {
 
           <section className="more-details">
             <p>
-              A passionate techy focusing mainly <br />
-              on web and mobile development
+              Software Developer
               <br /> based in Nairobi, Kenya
             </p>
           </section>
