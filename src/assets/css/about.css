@@ -1,0 +1,11 @@
+.main-about {
+  width: auto;
+  height: 70vh;
+  margin: 20px 20px;
+}
+
+.underline {
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+}
