@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cantarell&family=Carter+One&display=swap");
 
 .main-hero {
-  width: 100%;
+  width: auto;
   height: 100vh;
   margin: 0px;
   background-color: #e9ebed;
@@ -23,7 +23,7 @@
 
 .main-details h1 {
   font-weight: 900;
-  letter-spacing: 8px;
+  /* letter-spacing: 8px; */
   font-size: 70px !important;
   margin-bottom: 0;
   font-family: "Cantarell", sans-serif;
@@ -58,6 +58,12 @@
   color: #3f334d;
 }
 
+.side-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .more-buttons {
   display: flex;
   flex-direction: row;
@@ -73,4 +79,66 @@
   background-color: #3f334d;
   color: #e9ebed;
   border-radius: 16px;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 480px) {
+  .line-bar {
+    width: 8px;
+    height: 50vh;
+    background-color: #3f334d;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 100px;
+  }
+  .main-hero {
+    width: auto;
+    height: 100%;
+    margin: 0px;
+    background-color: #e9ebed;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .side-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-details h1 {
+    /* letter-spacing: 4px; */
+    font-size: 40px !important;
+  }
+
+  .main-section {
+    margin: 0 20px;
+  }
+
+  .main-details p {
+    font-size: 20px;
+  }
+
+  .contact-links {
+    /* margin-top: 17%; */
+    margin-left: 20px;
+  }
+
+  .contact-links a {
+    margin: 0 10px;
+    font-size: 50px;
+    align-items: center;
+  }
+
+  .more-buttons {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-right: 40px;
+  }
+
+  .more-buttons button {
+    height: 50px;
+    width: 100px;
+  }
 }
