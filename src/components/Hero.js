@@ -20,10 +20,7 @@ function Hero() {
           </section>
 
           <section className="more-details">
-            <p>
-              Software Developer
-              <br /> based in Nairobi, Kenya
-            </p>
+            <p>Software Developer based in Nairobi, Kenya</p>
           </section>
         </div>
 

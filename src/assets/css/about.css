@@ -47,19 +47,15 @@
 
 @media (max-width: 480px) {
   .main-about {
-    width: auto;
-    height: 50vh;
     margin: 10px 20px;
   }
 
   .main-about-section {
+    display: flex;
     flex-direction: column;
     padding: 0px;
     width: auto;
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
     text-align: center;
     margin: 0;
   }
