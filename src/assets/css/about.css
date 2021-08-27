@@ -1,6 +1,6 @@
 .main-about {
   width: auto;
-  height: 50vh;
+  height: 40vh;
   margin: 20px 60px;
 }
 
@@ -48,6 +48,8 @@
 @media (max-width: 480px) {
   .main-about {
     margin: 10px 20px;
+    height: 100%;
+    width: auto;
   }
 
   .main-about-section {

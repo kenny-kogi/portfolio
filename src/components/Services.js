@@ -13,19 +13,34 @@ function Services() {
           <img src={Web} alt="web development"></img>
           <h2>Web Application</h2>
           <p>
-            HTML, CSS, ReactJS, <br />
-            Ruby on Rails, NodeJS
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic
           </p>
         </section>
         <section className="details-card">
           <img src={Mobile} alt="Mobile development"></img>
           <h2>Mobile Application</h2>
-          <p>Flutter</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic
+          </p>
         </section>
         <section className="details-card">
           <img src={Desktop} alt="Desktop development"></img>
           <h2>Desktop Application</h2>
-          <p>C#, JAVA</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic
+          </p>
         </section>
       </div>
     </div>
