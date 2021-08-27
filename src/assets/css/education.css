@@ -1,0 +1,41 @@
+.main-education {
+  width: auto;
+  height: auto;
+  /* margin: 20px 60px; */
+  background-color: #e9ebed;
+  margin-top: 0;
+}
+
+.main-education-content {
+  margin: 0 60px;
+}
+
+.main-education-content > h1 {
+  padding-top: 20px;
+}
+
+.education .edu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.education .edu .course {
+  font-weight: bold;
+}
+.education .edu .date {
+  font-style: italic;
+}
+.education .edu .course i,
+.education .edu .school i,
+.education .edu .date i {
+  margin-right: 5px;
+}
+
+@media (max-width: 480px) {
+  .main-education {
+    width: auto;
+    height: auto;
+    /* margin: 20px 60px; */
+  }
+}
