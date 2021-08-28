@@ -4,6 +4,8 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
+import Project from "./components/Project";
+import Community from "./components/Community";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Services />
       <Skills />
       <Education />
+      <Project />
+      <Community />
     </div>
   );
 }
