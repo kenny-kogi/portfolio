@@ -9,7 +9,7 @@ import House from "../assets/images/house.png";
 
 function Project() {
   return (
-    <div className="main-project">
+    <div className="main-project" id="projects">
       <h1>My Projects</h1>
       <div className="project-content">
         <section className="project-detail">

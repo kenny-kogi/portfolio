@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <div className="navbar-wrapper">
+    <div className="navbar-wrapper" id="home">
       <img src={kogi} alt="kogi dev" />
       <button class="toggle-button" onClick={handleToggle}>
         <span class="bar"></span>
@@ -19,13 +19,13 @@ function Navbar() {
 
       <ul className={`${burger ? "button-toggle " : ""}`}>
         <li>
-          <a href="#home">Home</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#home">About</a>
+          <a href="#services">Services</a>
         </li>
         <li>
-          <a href="#home">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
           <a href="#home">Contact</a>

@@ -6,7 +6,7 @@ import Desktop from "../assets/images/desktop.jpeg";
 
 function Services() {
   return (
-    <div className="service-details">
+    <div className="service-details" id="services">
       <h1>What i do</h1>
       <div className="more-details">
         <section className="details-card">

@@ -4,7 +4,7 @@ import kenny from "../assets/images/kenny.jpeg";
 
 function About() {
   return (
-    <div className="main-about">
+    <div className="main-about" id="about">
       <div className="main-about-section">
         <img src={kenny} alt="Kogi" />
         <section className="profile">
