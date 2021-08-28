@@ -61,7 +61,8 @@
 
 @media (max-width: 480px) {
   .navbar-wrapper > img {
-    margin: 0px;
+    margin: 10px;
+    height: 40px;
   }
 
   .toggle-button {

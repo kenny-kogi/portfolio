@@ -1,18 +1,17 @@
 .main-about {
   width: auto;
-  height: 40vh;
-  margin: 20px 60px;
+  height: auto;
 }
 
 .main-about-section {
-  padding: 20px;
-  width: 100%;
+  margin: 0px 60px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin: 0 20px;
+
+  padding: 20px;
 }
 
 .main-about-section > img {

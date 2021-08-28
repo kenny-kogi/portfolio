@@ -1,12 +1,23 @@
 .skill-container {
-  display: flex;
-  flex-direction: row;
+  margin: 0;
+  /* background-color: tomato; */
   width: auto;
   height: auto;
   /* margin: 0 0px; */
-  justify-content: center;
-  margin-top: 0;
+  /* justify-content: center;
+  margin-top: 0;*/
 }
+
+.skill-container > h2 {
+  margin-left: 40px;
+}
+
+.skill-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .skill-banner {
   margin: 0;
   width: 50%;
@@ -14,7 +25,7 @@
 }
 .skill-banner > img {
   width: 100%;
-  height: auto;
+  height: 90%;
   margin: 0;
 }
 
@@ -22,7 +33,7 @@
   margin-top: 90px;
   width: 40%;
   height: auto;
-
+  /* background-color: #d6edff; */
   height: fit-content;
   /* display: flex;
   flex-direction: row;
@@ -37,19 +48,20 @@
 
 @media (max-width: 480px) {
   .skill-container {
-    display: flex;
-    flex-direction: column;
     width: auto;
     height: auto;
-    margin: 10px 0px;
-    margin-left: 40px;
+
     /* justify-content: center; */
   }
 
+  .skill-content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    margin-left: 40px;
+  }
+
   .skill-banner {
-    margin: 0;
-    width: 0;
-    height: auto;
     display: none;
   }
 

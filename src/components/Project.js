@@ -17,25 +17,20 @@ function Project() {
           <aside className="project-aside">
             <h3>Akili Writing Hub</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic
+              Akili Writing Hub is a web platform that aims to breach the gap
+              between online writers and their prospective customers, by
+              providing an easier way of advertising their services and
+              communication
             </p>
           </aside>
         </section>
         <section className="project-detail">
           <aside className="project-aside">
-            <h3>Food App</h3>
+            <h3>Food App UI</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic
+              Food App UI is a cross platform application developed using the
+              google framework (Flutter), that allows its users to skim a list
+              of available foods and make an order
             </p>
           </aside>
           <img src={Food} alt="Food App" />
@@ -45,12 +40,9 @@ function Project() {
           <aside className="project-aside">
             <h3>House Review API</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic
+              API developed using Ruby on Rails, which after integration to a
+              Home renting service, will allow users of the system have the
+              capability to leave a review of different homes and display them.
             </p>
           </aside>
         </section>
@@ -59,12 +51,8 @@ function Project() {
           <aside className="project-aside">
             <h3>Progmatic Book Store</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic
+              An E-Store Web platform that allows Programmers shop their
+              favourite E-Books and ship them
             </p>
           </aside>
           <img src={Store} alt="Book Store" />

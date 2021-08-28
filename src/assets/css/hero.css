@@ -4,141 +4,150 @@
   width: auto;
   height: 100vh;
   margin: 0px;
-  background-color: #e9ebed;
+  background-color: #d6edff;
   display: flex;
   flex-direction: row;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-top: 120px;
+  margin-left: 70px;
+}
+
+.line-bar {
+  width: 15px;
+  height: 90%;
+  background-color: #3f334d;
+  /* margin-top: 100px;
+  margin-left: 70px; */
+  border-radius: 10px;
+}
+
+.side-section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  margin: 30px 50px;
 }
 
 .main-section {
   display: flex;
   flex-direction: column;
-  margin: 0 50px;
 }
 
 .main-details {
-  margin-top: 80px;
+  /* margin-top: 80px; */
   display: flex;
   flex-direction: column;
 }
 
-.main-details h1 {
+.main-details > h1 {
   font-weight: 900;
-  /* letter-spacing: 8px; */
-  font-size: 70px !important;
+  letter-spacing: 4px;
+  font-size: 60px !important;
   margin-bottom: 0;
   font-family: "Cantarell", sans-serif;
+  /* color: #00518f; */
 }
 
-.main-details p {
+.main-details > p {
   font-weight: 50;
-  font-size: 50px;
+  font-size: 20px;
+  letter-spacing: 0;
   font-family: "Cantarell", sans-serif;
-}
-
-.line-bar {
-  width: 10px;
-  height: 70%;
-  background-color: #3f334d;
-  margin-top: 100px;
-  margin-left: 70px;
-  border-radius: 10px;
 }
 
 .contact-links {
-  margin-top: 17%;
-  margin-left: 300px;
+  margin-top: 30px;
+  /* margin-left: 300px; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.contact-links a {
+.contact-links > a {
   margin: 0 30px;
   font-size: 60px;
   list-style: none;
   color: #3f334d;
 }
 
-.side-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.right-section {
+  width: 50%;
+  height: auto;
+  background-color: white;
 }
 
-.more-buttons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.more-buttons button {
-  margin: 0 15px;
-  height: 60px;
-  width: 150px;
-  background-color: #3f334d;
-  color: #e9ebed;
-  border-radius: 16px;
+.right-section > img {
+  width: 100%;
+  height: auto;
+  margin: 0;
 }
 
 /* Mobile Responsive */
 
 @media (max-width: 480px) {
-  .line-bar {
-    width: 8px;
-    height: 50vh;
-    background-color: #3f334d;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-top: 100px;
+  .right-section {
+    display: none;
   }
+
   .main-hero {
     width: auto;
-    height: 100%;
+    height: auto;
     margin: 0px;
-    background-color: #e9ebed;
+    /* background-color: #e9ebed; */
     display: flex;
     flex-direction: row;
+  }
+
+  .left-section {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+
+  .line-bar {
+    width: 9px;
+    height: 90%;
+    background-color: #3f334d;
+    /* margin-top: 100px;
+  margin-left: 70px; */
+    border-radius: 10px;
   }
 
   .side-section {
     display: flex;
     flex-direction: column;
+    /* justify-content: space-between; */
+    margin: 20px 30px;
   }
 
-  .main-details h1 {
-    /* letter-spacing: 4px; */
+  .main-details > h1 {
+    font-weight: 900;
+    letter-spacing: 2px;
     font-size: 40px !important;
+    margin-bottom: 0;
+    font-family: "Cantarell", sans-serif;
   }
 
-  .main-section {
-    margin: 0 20px;
+  .main-details > p {
+    font-weight: 50;
+    font-size: 15px;
+    letter-spacing: 0;
+    font-family: "Cantarell", sans-serif;
   }
 
-  .main-details p {
-    font-size: 20px;
-  }
-
-  .contact-links {
-    /* margin-top: 17%; */
-    margin-left: 20px;
-  }
-
-  .contact-links a {
-    margin: 0 10px;
-    font-size: 50px;
-    align-items: center;
-  }
-
-  .more-buttons {
-    margin-top: 30px;
+  .contact-links > a {
+    margin: 0 15px;
+    font-size: 40px;
+    list-style: none;
+    color: #3f334d;
     margin-bottom: 20px;
-    align-items: center;
-    margin-right: 40px;
-  }
-
-  .more-buttons button {
-    height: 50px;
-    width: 100px;
   }
 }

@@ -2,13 +2,14 @@
   width: auto;
   height: auto;
   /* background-color: #e9ebed; */
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
   flex-direction: column;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
-.service-details > h1 {
-  margin: 0 20px;
+
+.service-details-content {
+  margin: 0 40px;
 }
 
 .more-details {
@@ -16,7 +17,7 @@
   flex-direction: row;
   text-align: center;
   justify-content: space-evenly;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .details-card {
@@ -25,10 +26,6 @@
 
 .details-card > p {
   overflow: hidden;
-}
-.card {
-  display: flex;
-  flex-direction: column;
 }
 
 .details-card > img {
@@ -39,7 +36,7 @@
 }
 
 .details-card > h2 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 @media (max-width: 480px) {
