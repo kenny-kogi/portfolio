@@ -22,6 +22,15 @@ function Project() {
               providing an easier way of advertising their services and
               communication
             </p>
+            <section className="tags-link">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+              </ul>
+
+              <a href="https://master--akili-writing-hub.netlify.app/">View</a>
+            </section>
           </aside>
         </section>
         <section className="project-detail">
@@ -32,6 +41,15 @@ function Project() {
               google framework (Flutter), that allows its users to skim a list
               of available foods and make an order
             </p>
+            <section className="tags-link">
+              <ul>
+                <li>Flutter</li>
+              </ul>
+
+              <a href="https://github.com/kenny-kogi/NutritionApp-Flutter">
+                View
+              </a>
+            </section>
           </aside>
           <img src={Food} alt="Food App" />
         </section>
@@ -44,6 +62,15 @@ function Project() {
               Home renting service, will allow users of the system have the
               capability to leave a review of different homes and display them.
             </p>
+            <section className="tags-link">
+              <ul>
+                <li>Ruby on Rails</li>
+                <li>PostgresQL</li>
+                <li>ReactJS</li>
+              </ul>
+
+              <a href="https://github.com/kenny-kogi/House-Review">View</a>
+            </section>
           </aside>
         </section>
 
@@ -51,9 +78,22 @@ function Project() {
           <aside className="project-aside">
             <h3>Progmatic Book Store</h3>
             <p>
-              An E-Store Web platform that allows Programmers shop their
-              favourite E-Books and ship them
+              An E-Store Web platform that allows Programmers add to cart their
+              favourite E-Books, order and allow different forms of payment.
+              (CRUD App)
             </p>
+            <section className="tags-link">
+              <ul>
+                <li>HTML</li>
+                <li>Saas</li>
+                <li>Mysql</li>
+                <li>Ruby on Rails</li>
+              </ul>
+
+              <a href="https://github.com/kenny-kogi/Progmatic-Book-Store">
+                View
+              </a>
+            </section>
           </aside>
           <img src={Store} alt="Book Store" />
         </section>
@@ -61,28 +101,41 @@ function Project() {
         <section className="project-detail">
           <img src={Transact} alt="Transact" />
           <aside className="project-aside">
-            <h3>Desktop Transaction System</h3>
+            <h3>Integrated Transaction System</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic
+              A desktop application, developed to aid SMEs to reduce their daily
+              operational cost by providing features such as point of sale
+              system, book keeping and inventory management.
             </p>
+            <section className="tags-link">
+              <ul>
+                <li>C#</li>
+                <li>Mysql</li>
+                <li>Bunifu</li>
+              </ul>
+
+              <a href="https://github.com/kenny-kogi/C---Transaction-System">
+                View
+              </a>
+            </section>
           </aside>
         </section>
         <section className="project-detail">
           <aside className="project-aside">
-            <h3>Personal Website</h3>
+            <h3>Portfolio Website</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic
+              A website to allow developers show case their profile, tech
+              journey, skills and projects
             </p>
+            <section className="tags-link">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>ReactJS</li>
+              </ul>
+
+              <a href="https://master--akili-writing-hub.netlify.app/">View</a>
+            </section>
           </aside>
           <img src={Portfolio} alt="Book Store" />
         </section>
