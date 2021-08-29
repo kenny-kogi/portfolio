@@ -39,7 +39,7 @@ function Community() {
       </div>
 
       <p class="text-center text-white font-space_mono text-xs mt-4">
-        Created by &copy;Keneth Kogi 2021
+        Created by &copy;Keneth Kogi 2022
       </p>
     </div>
   );
