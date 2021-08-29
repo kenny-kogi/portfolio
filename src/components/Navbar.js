@@ -25,10 +25,13 @@ function Navbar() {
           <a href="#stack">Tech Stack</a>
         </li>
         <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
           <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#home">Contact</a>
+          <a href="#communities">Communities</a>
         </li>
       </ul>
     </div>

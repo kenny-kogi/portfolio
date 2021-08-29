@@ -135,10 +135,10 @@ function Project() {
                 <li>ReactJS</li>
               </ul>
 
-              <a href="https://master--akili-writing-hub.netlify.app/">View</a>
+              <a href="https://github.com/kenny-kogi/portfolio">View</a>
             </section>
           </aside>
-          <img src={Portfolio} alt="Book Store" />
+          <img src={Portfolio} alt="Portfolio" />
         </section>
       </div>
     </div>

@@ -6,8 +6,8 @@ import Luxtech from "../assets/images/luxtech.jpeg";
 
 function Community() {
   return (
-    <div className="community-details">
-      <h1>Communities</h1>
+    <div className="community-details" id="communities">
+      <h1>Tech Communities</h1>
       <div className="main-community">
         <section className="community-content">
           <img src={Nairuby} alt="Nairuby"></img>
@@ -39,7 +39,7 @@ function Community() {
       </div>
 
       <p class="text-center text-white font-space_mono text-xs mt-4">
-        Created by &copy;Keneth Kogi 2022
+        Created by &copy;Keneth Kogi 2021
       </p>
     </div>
   );
