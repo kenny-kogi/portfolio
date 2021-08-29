@@ -70,7 +70,7 @@
   /* background-color: #2c405e; */
   background-color: #d6edff;
 }
-@media (max-width: 480px) {
+@media (max-width: 680px) {
   .project-content {
     margin: 10px 10px;
     display: flex;

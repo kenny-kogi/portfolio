@@ -124,8 +124,9 @@ function Project() {
           <aside className="project-aside">
             <h3>Portfolio Website</h3>
             <p>
-              A website to allow developers show case their profile, tech
-              journey, skills and projects
+              A simple website developed to allow my fellow developers show case
+              their profile, achievement, tech journey, skills and milestone
+              projects etc
             </p>
             <section className="tags-link">
               <ul>

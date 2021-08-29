@@ -44,7 +44,7 @@
   letter-spacing: 0.1px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .main-about {
     margin: 10px 20px;
     height: 100%;

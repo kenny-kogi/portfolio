@@ -22,11 +22,10 @@ function Education() {
             April 2021 - Present
           </span>
           <p class="description">
-            Andela Learning Community (ALC) is an intensive scholarship
-            programme by Andela, Pluralsight and Google, where qualified high
-            potential and proactive students learn to be worldclass android
-            developers and are awarded Google Android Certification upon passing
-            the final examination.
+            GADS is an intensive scholarship programme by Andela, Pluralsight
+            and Google, where qualified high potential and proactive students
+            learn to be worldclass mobile-web developers and are awarded Google
+            Certification upon passing the final examination.
           </p>
         </div>
         <div class="edu">

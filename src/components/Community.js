@@ -1,48 +1,46 @@
 import React from "react";
 import "../assets/css/community.css";
 import Nairuby from "../assets/images/ruby.png";
-import GDG from "../assets/images/gdg.png";
+import GDG from "../assets/images/gdg.jpeg";
 import Luxtech from "../assets/images/luxtech.jpeg";
 
 function Community() {
   return (
-    <div className="service-details">
+    <div className="community-details">
       <h1>Communities</h1>
-      <div className="more-details">
-        <section className="details-card">
-          <img src={Nairuby} alt="web development"></img>
+      <div className="main-community">
+        <section className="community-content">
+          <img src={Nairuby} alt="Nairuby"></img>
           <h2>Nairuby</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic
+            Nairuby is a Nairobi based group of Ruby programmers where we
+            welcome all programmers and aim to promote software development
+            skills, entrepreneurship and open source culture.
           </p>
         </section>
-        <section className="details-card">
-          <img src={GDG} alt="Mobile development"></img>
+        <section className="community-content">
+          <img src={GDG} alt="GDG Nairobi"></img>
           <h2>GDG Nairobi</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic
+            GDG Nairobi is open and volunteer geek community where we create
+            exciting projects and share experience about Google technologies
+            with passion.
           </p>
         </section>
-        <section className="details-card">
-          <img src={Luxtech} alt="Desktop development"></img>
+        <section className="community-content">
+          <img src={Luxtech} alt="LuxTech Academy"></img>
           <h2>LuxTech Academy</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic
+            Lux Tech Academy is a community where software developers come
+            together and help each other grow in their tech journey through
+            organizing tech conferences and training bootcamps
           </p>
         </section>
       </div>
+
+      <p class="text-center text-white font-space_mono text-xs mt-4">
+        Created by &copy;Keneth Kogi 2021
+      </p>
     </div>
   );
 }
