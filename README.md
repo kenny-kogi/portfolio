@@ -1,7 +1,7 @@
 ## Getting Started with Portfolio
 
 Simple portfolio Website developed using ReactJS
-Check it out <a href="https://kenny-kogi.github.io/portfolio/"><Here</a>
+Check it out <a href="https://kenny-kogi.github.io/portfolio/">Here</a>
 
 ## Available Scripts
 
