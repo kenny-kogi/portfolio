@@ -22,10 +22,10 @@ function Education() {
             April 2021 - Present
           </span>
           <p class="description">
-            GADS is an intensive scholarship programme by Andela, Pluralsight
-            and Google, where qualified high potential and proactive students
-            learn to be worldclass mobile-web developers and are awarded Google
-            Certification upon passing the final examination.
+            GADS is a programme by Andela in partnership with Google and
+            Pluralsight, where they aim to engage with existing and aspiring
+            developers to help them build the skills they need to get a job in
+            tech and also provide mentorship.
           </p>
         </div>
         <div class="edu">
@@ -43,10 +43,10 @@ function Education() {
             Sep 2018 - Present
           </span>
           <p class="description">
-            I am currently undertaking an undergraduate degree in BSc. Computer
-            Science. I am majoring in Software Development because it is awesome
-            having the ability to create anything within your imagination to
-            change the community for the better.
+            I am currently pursuing my undergrad degree in BSc. Computer
+            Science. I'm focusing in software development because it's amazing
+            to be able to create anything you can think of in order to solve
+            problems faced in the community.
           </p>
         </div>
       </div>

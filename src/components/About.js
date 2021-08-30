@@ -11,14 +11,14 @@ function About() {
           <h1>About Me</h1>
           <section className="">
             <p>
-              I'm a passionate techy skilled in mobile and web development for
-              different kinds of services. Useful knowledge with high-level
-              programming by using different technologies. I am more focused on
-              back-end technologies but also have experience with the latest
-              front-end technologies. My goal is to always put the principles of
-              Computer Science and Software Engineering into practice. Also, a
-              very passionate learner by voluntarily constant reading,
-              exercising and working in various fields/subjects
+              I'm a passionate techie with experience in mobile and web
+              development for a variety of services. Useful knowledge with
+              high-level programming by using different technologies. I'm more
+              focused in back-end technologies, but also familiar with the
+              current front-end technologies. My goal is to always put the
+              principles of Computer Science and Software Engineering into
+              practice. Also, a dedicated learner by voluntarily constant
+              reading, exercising and working in various fields.
             </p>
             <div className="resume">{/* <button>Resume</button> */}</div>
           </section>
