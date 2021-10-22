@@ -17,7 +17,7 @@ function About() {
               focused in back-end technologies, but also familiar with the
               current front-end technologies. My goal is to always put the
               principles of Computer Science and Software Engineering into
-              practice. Also, a dedicated learner by voluntarily constant
+              practice. Also, a dedicated learner by voluntarily constantly
               reading, exercising and working in various fields.
             </p>
             <div className="resume">{/* <button>Resume</button> */}</div>
